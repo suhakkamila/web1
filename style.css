@@ -1,11 +1,11 @@
-/* Блок 1 */
+/* ГЃГ«Г®ГЄ 1 */
 #block1 {
     background: linear-gradient(135deg, #0A0A0A, #D4AF37);
     color: #AA8F32;
     font-family: 'MS Reference Specialty', sans-serif;
     font-style: italic;
     font-weight: lighter;
-    font-size: calc(16px + 1vw); /* адаптивний шрифт */
+    font-size: calc(16px + 1vw); /* Г Г¤Г ГЇГІГЁГўГ­ГЁГ© ГёГ°ГЁГґГІ */
     padding: 1em;
     text-align: left;
     width: 100%;
@@ -16,7 +16,7 @@
     margin: 0 auto;
 }
 
-/* Блок 7 */
+/* ГЃГ«Г®ГЄ 7 */
 #block7 {
     background: linear-gradient(135deg, #0A0A0A, #D4AF37);
     color: #0A0A0A;
@@ -44,7 +44,7 @@
     margin: 0;
 }
 
-/* Блок 2: меню зліва */
+/* ГЃГ«Г®ГЄ 2: Г¬ГҐГ­Гѕ Г§Г«ВіГўГ  */
 .block2 {
     flex: 1.5;
     background: linear-gradient(135deg, #FAFAD2, #0A0A0A );
@@ -55,7 +55,7 @@
     min-width: 0;
 }
 
-/* Середній стовпець: блок 3 і блок 5 */
+/* Г‘ГҐГ°ГҐГ¤Г­ВіГ© Г±ГІГ®ГўГЇГҐГ¶Гј: ГЎГ«Г®ГЄ 3 Ві ГЎГ«Г®ГЄ 5 */
 .left-column {
     flex: 2.5;
     display: flex;
@@ -65,7 +65,7 @@
     min-width: 0;
 }
 
-/* Блок 3 */
+/* ГЃГ«Г®ГЄ 3 */
 .block3 {
     background-color: black;
     color: #FAFAD2;
@@ -78,14 +78,14 @@
     word-break: break-word;
 }
 
-/* Блок 5 */
+/* ГЃГ«Г®ГЄ 5 */
 .block5 {
     background: linear-gradient(135deg, #F8F4E3, #D4AF37);
     min-height: 343px;
     text-align: center;
     width: 100%;
     box-sizing: border-box;
-    overflow-x: auto; /* горизонтальний скрол при довгому контенті */
+    overflow-x: auto; /* ГЈГ®Г°ГЁГ§Г®Г­ГІГ Г«ГјГ­ГЁГ© Г±ГЄГ°Г®Г« ГЇГ°ГЁ Г¤Г®ГўГЈГ®Г¬Гі ГЄГ®Г­ГІГҐГ­ГІВі */
     height: auto;
     flex-grow: 1;
     padding: 10px;
@@ -93,7 +93,7 @@
     word-break: break-word;
 }
 
-/* Правий стовпець: блок 4 і блок 6 */
+/* ГЏГ°Г ГўГЁГ© Г±ГІГ®ГўГЇГҐГ¶Гј: ГЎГ«Г®ГЄ 4 Ві ГЎГ«Г®ГЄ 6 */
 .right-column {
     flex: 1.5;
     display: flex;
@@ -103,7 +103,7 @@
     min-width: 0;
 }
 
-/* Блок 4 */
+/* ГЃГ«Г®ГЄ 4 */
 .block4 {
     background: linear-gradient(135deg, #FAFAD2, #0A0A0A );
     text-align: center;
@@ -116,7 +116,7 @@
     height: auto;
 }
 
-/* Блок 6 */
+/* ГЃГ«Г®ГЄ 6 */
 .block6 {
     background: linear-gradient(135deg, #FAFAD2, #0A0A0A );
     min-height: 162px;
@@ -127,7 +127,7 @@
     flex-grow: 1;
 }
 
-/* Картинка в блоці 4 */
+/* ГЉГ Г°ГІГЁГ­ГЄГ  Гў ГЎГ«Г®Г¶Ві 4 */
 .block4-img {
     width: 100%;
     max-width: 170px;
@@ -136,15 +136,15 @@
 }
 
 .makeup-img {
-    width: 100%; /* займає всю ширину контейнера */
-    max-width: 300px; /* максимальна ширина */
-    min-width: 200px; /* мінімальна ширина для адекватного перегляду */
-    height: auto; /* пропорційно підлаштовується висота */
+    width: 90%; /* Г§Г Г©Г¬Г Вє ГўГ±Гѕ ГёГЁГ°ГЁГ­Гі ГЄГ®Г­ГІГҐГ©Г­ГҐГ°Г  */
+    max-width: 300px; /* Г¬Г ГЄГ±ГЁГ¬Г Г«ГјГ­Г  ГёГЁГ°ГЁГ­Г  */
+    min-width: 200px; /* Г¬ВіГ­ВіГ¬Г Г«ГјГ­Г  ГёГЁГ°ГЁГ­Г  Г¤Г«Гї Г Г¤ГҐГЄГўГ ГІГ­Г®ГЈГ® ГЇГҐГ°ГҐГЈГ«ГїГ¤Гі */
+    height: auto; /* ГЇГ°Г®ГЇГ®Г°Г¶ВіГ©Г­Г® ГЇВіГ¤Г«Г ГёГІГ®ГўГіВєГІГјГ±Гї ГўГЁГ±Г®ГІГ  */
     border-radius: 10px;
     margin-top: 10px;
 }
 
-/* Стилізація заголовку меню */
+/* Г‘ГІГЁГ«ВіГ§Г Г¶ВіГї Г§Г ГЈГ®Г«Г®ГўГЄГі Г¬ГҐГ­Гѕ */
 .menu-title {
     color: darkgrey;
     font-size: 1.5em;
@@ -153,7 +153,7 @@
     margin-bottom: 10px;
 }
 
-/* Стилізація посилань */
+/* Г‘ГІГЁГ«ВіГ§Г Г¶ВіГї ГЇГ®Г±ГЁГ«Г Г­Гј */
 .menu-list a {
     color: darkred;
     font-size: 1em;
@@ -168,7 +168,7 @@
         color: orange;
     }
 
-/* Вступний абзац блоку 6 */
+/* Г‚Г±ГІГіГЇГ­ГЁГ© Г ГЎГ§Г Г¶ ГЎГ«Г®ГЄГі 6 */
 .block6 .intro-text {
     color: #FFF8E7;
     font-size: 16px;
@@ -176,7 +176,7 @@
     margin-bottom: 0px;
 }
 
-/* Список всередині блоку 6 */
+/* Г‘ГЇГЁГ±Г®ГЄ ГўГ±ГҐГ°ГҐГ¤ГЁГ­Ві ГЎГ«Г®ГЄГі 6 */
 .block6 .care-list {
     color: darkred;
     font-size: 16px;
@@ -185,7 +185,7 @@
     margin-bottom: 0px;
 }
 
-/* Блоки з текстом */
+/* ГЃГ«Г®ГЄГЁ Г§ ГІГҐГЄГ±ГІГ®Г¬ */
 .block2 p, .block3 p, .block4 p, .block5 p, .block6 p {
     white-space: normal;
     word-wrap: break-word;
@@ -193,16 +193,16 @@
 }
 
 .block5 p, .block6 p {
-    font-family: Arial, sans-serif; /* як у блоці 3 */
-    font-size: 16px; /* трохи зменшимо, щоб не ламався рядок */
-    line-height: 1.5; /* відстань між рядками */
-    word-wrap: break-word; /* автоматичний перенос слів */
+    font-family: Arial, sans-serif; /* ГїГЄ Гі ГЎГ«Г®Г¶Ві 3 */
+    font-size: 16px; /* ГІГ°Г®ГµГЁ Г§Г¬ГҐГ­ГёГЁГ¬Г®, Г№Г®ГЎ Г­ГҐ Г«Г Г¬Г ГўГ±Гї Г°ГїГ¤Г®ГЄ */
+    line-height: 1.5; /* ГўВіГ¤Г±ГІГ Г­Гј Г¬ВіГ¦ Г°ГїГ¤ГЄГ Г¬ГЁ */
+    word-wrap: break-word; /* Г ГўГІГ®Г¬Г ГІГЁГ·Г­ГЁГ© ГЇГҐГ°ГҐГ­Г®Г± Г±Г«ВіГў */
     overflow-wrap: break-word;
-    white-space: normal; /* дозволяє перенос рядків */
-    text-align: left; /* або center, якщо хочеш вирівнювання */
+    white-space: normal; /* Г¤Г®Г§ГўГ®Г«ГїВє ГЇГҐГ°ГҐГ­Г®Г± Г°ГїГ¤ГЄВіГў */
+    text-align: left; /* Г ГЎГ® center, ГїГЄГ№Г® ГµГ®Г·ГҐГё ГўГЁГ°ВіГўГ­ГѕГўГ Г­Г­Гї */
 }
 
-/* Flex для картинок та підписів */
+/* Flex Г¤Г«Гї ГЄГ Г°ГІГЁГ­Г®ГЄ ГІГ  ГЇВіГ¤ГЇГЁГ±ВіГў */
 .makeup-container {
     display: flex;
     align-items: flex-start;
@@ -231,7 +231,7 @@
     min-width: 0;
 }
 
-/* Квадратна картинка */
+/* ГЉГўГ Г¤Г°Г ГІГ­Г  ГЄГ Г°ГІГЁГ­ГЄГ  */
 .block4-img-square {
     width: 100%;
     max-width: 270px;
@@ -240,7 +240,8 @@
     object-fit: cover;
 }
 
-/* Посилання в блоці 5 */
+/* ГЏГ®Г±ГЁГ«Г Г­Г­Гї Гў ГЎГ«Г®Г¶Ві 5 */
 a {
     color: darkgray;
 }
+
