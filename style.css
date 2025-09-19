@@ -1,0 +1,246 @@
+/* Блок 1 */
+#block1 {
+    background: linear-gradient(135deg, #0A0A0A, #D4AF37);
+    color: #AA8F32;
+    font-family: 'MS Reference Specialty', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: calc(16px + 1vw); /* адаптивний шрифт */
+    padding: 1em;
+    text-align: left;
+    width: 100%;
+    min-height: 85px;
+    height: auto;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+/* Блок 7 */
+#block7 {
+    background: linear-gradient(135deg, #0A0A0A, #D4AF37);
+    color: #0A0A0A;
+    padding: 1em;
+    text-align: right;
+    width: 100%;
+    min-height: 80px;
+    height: auto;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    font-size: calc(16px + 1vw);
+    font-style: italic;
+    font-family: 'MS Reference Specialty', sans-serif;
+    font-weight: lighter;
+}
+
+/* Middle Row */
+.middle-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+}
+
+/* Блок 2: меню зліва */
+.block2 {
+    flex: 1.5;
+    background: linear-gradient(135deg, #FAFAD2, #0A0A0A );
+    min-height: 453px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+/* Середній стовпець: блок 3 і блок 5 */
+.left-column {
+    flex: 2.5;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+/* Блок 3 */
+.block3 {
+    background-color: black;
+    color: #FAFAD2;
+    min-height: 110px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    height: auto;
+    word-break: break-word;
+}
+
+/* Блок 5 */
+.block5 {
+    background: linear-gradient(135deg, #F8F4E3, #D4AF37);
+    min-height: 343px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: auto; /* горизонтальний скрол при довгому контенті */
+    height: auto;
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 0px;
+    word-break: break-word;
+}
+
+/* Правий стовпець: блок 4 і блок 6 */
+.right-column {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+/* Блок 4 */
+.block4 {
+    background: linear-gradient(135deg, #FAFAD2, #0A0A0A );
+    text-align: center;
+    min-height: 150px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #FFF8E7;
+    font-style: italic;
+    font-size: calc(14px + 0.5vw);
+    height: auto;
+}
+
+/* Блок 6 */
+.block6 {
+    background: linear-gradient(135deg, #FAFAD2, #0A0A0A );
+    min-height: 162px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    flex-grow: 1;
+}
+
+/* Картинка в блоці 4 */
+.block4-img {
+    width: 100%;
+    max-width: 170px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.makeup-img {
+    width: 100%; /* займає всю ширину контейнера */
+    max-width: 300px; /* максимальна ширина */
+    min-width: 200px; /* мінімальна ширина для адекватного перегляду */
+    height: auto; /* пропорційно підлаштовується висота */
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Стилізація заголовку меню */
+.menu-title {
+    color: darkgrey;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+/* Стилізація посилань */
+.menu-list a {
+    color: darkred;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+    .menu-list a:hover {
+        color: orange;
+    }
+
+/* Вступний абзац блоку 6 */
+.block6 .intro-text {
+    color: #FFF8E7;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+/* Список всередині блоку 6 */
+.block6 .care-list {
+    color: darkred;
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+/* Блоки з текстом */
+.block2 p, .block3 p, .block4 p, .block5 p, .block6 p {
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.block5 p, .block6 p {
+    font-family: Arial, sans-serif; /* як у блоці 3 */
+    font-size: 16px; /* трохи зменшимо, щоб не ламався рядок */
+    line-height: 1.5; /* відстань між рядками */
+    word-wrap: break-word; /* автоматичний перенос слів */
+    overflow-wrap: break-word;
+    white-space: normal; /* дозволяє перенос рядків */
+    text-align: left; /* або center, якщо хочеш вирівнювання */
+}
+
+/* Flex для картинок та підписів */
+.makeup-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}
+
+.makeup-left {
+    flex: 1;
+    text-align: left;
+    min-width: 0;
+}
+
+.makeup-center {
+    flex: 2;
+    text-align: center;
+}
+
+.makeup-right {
+    flex: 1;
+    text-align: right;
+    font-size: 16px;
+    color: darkblue;
+    min-width: 0;
+}
+
+/* Квадратна картинка */
+.block4-img-square {
+    width: 100%;
+    max-width: 270px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Посилання в блоці 5 */
+a {
+    color: darkgray;
+}
