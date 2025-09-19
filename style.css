@@ -180,7 +180,7 @@
 /* Ñïèñîê âñåðåäèí³ áëîêó 6 */
 .block6 .care-list {
     color: darkred;
-    font-size: 16px;
+    font-size: 13px;
     font-style: italic;
     margin-left: 0px;
     margin-bottom: 5px; 
@@ -246,6 +246,7 @@
 a {
     color: darkgray;
 }
+
 
 
 
